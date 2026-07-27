@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, ArrowUpRight, Heart } from "lucide-react";
+import { Mail, ArrowUpRight, Heart } from "lucide-react";
+import { Github, Linkedin } from "../components/Icons";
 import { PORTFOLIO_INFO } from "../constants/portfolio";
 
 

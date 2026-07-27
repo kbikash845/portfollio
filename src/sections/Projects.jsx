@@ -5,7 +5,8 @@ import {
   useMotionValue,
 } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, ChevronRight } from "lucide-react";
+import { ExternalLink, ChevronRight } from "lucide-react";
+import { Github } from "../components/Icons";
 
 const PROJECTS = [
   {

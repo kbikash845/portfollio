@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Github,
-  Linkedin,
   FileText,
-  //   Volume2,
-  //   VolumeX,
   Menu,
   X,
 } from "lucide-react";
+import { Github, Linkedin } from "../Icons";
 import { useSoundEffect } from "../../hooks/useSoundEffect";
 import { PORTFOLIO_INFO } from "../../constants/portfolio";
 import { cn } from "../../lib/utils";
