@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
         enforce: "pre",
         transformIndexHtml(html) {
           return html
-            .replace(/%VITE_GA_ID%/g, env.VITE_GA_ID || "")
+            .replace(/%VITE_GA_ID%/g, env.VITE_GA_ID || "G-2M7GW5QQ2D")
             .replace(/%VITE_CLARITY_ID%/g, env.VITE_CLARITY_ID || "");
         },
       },
