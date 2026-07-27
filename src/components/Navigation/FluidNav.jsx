@@ -22,7 +22,7 @@ const sections = [
   { id: "contact", label: "Contact" },
 ];
 
-export default function FluidNav({ soundEnabled, onToggleSound }) {
+export default function FluidNav({ soundEnabled }) {
   const [activeSection, setActiveSection] = useState("hero");
   const [scrolled, setScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

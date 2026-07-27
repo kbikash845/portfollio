@@ -55,7 +55,7 @@ export function useSoundEffect(soundEnabled = false) {
           osc.start(now);
           osc.stop(now + 0.02);
         }
-      } catch (err) {
+      } catch {
         // Ignore audio playback errors silently
       }
     },
